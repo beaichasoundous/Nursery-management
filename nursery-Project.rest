@@ -1,0 +1,45 @@
+### GET 
+GET http://localhost:9000
+
+###GET 
+GET  http://localhost:9000/aboutus
+
+###GET 
+GET  http://localhost:9000/programs
+
+###GET 
+GET  http://localhost:9000/applynow
+
+
+###GET 
+GET  http://localhost:9000/gallery
+
+###------------test of the user pages
+###GET 
+GET  http://localhost:9000/login
+
+###GET 
+GET  http://localhost:9000/login/childinfo
+
+###GET 
+GET  http://localhost:9000/login/payment
+
+###GET 
+GET  http://localhost:9000/login/events
+
+###GET 
+GET  http://localhost:9000/login/messagesdashboard
+
+
+###tests of admin pages
+###GET 
+GET  http://localhost:9000/ytdfkz
+
+###GET 
+GET  http://localhost:9000/ytdfkz/apage
+
+###GET 
+GET  http://localhost:9000/ytdfkz/reset
+
+###GET 
+GET  http://localhost:9000/ytdfkz/childrenmanagement
