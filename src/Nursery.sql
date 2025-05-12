@@ -13,6 +13,10 @@ CREATE TABLE users (
     is_approved BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+INSERT INTO users (full_name) VALUES ('Rose');
+INSERT INTO users (full_name) VALUES ('Tulip');
+
+SELECT * FROM users;
 
 -- Table: children
 CREATE TABLE children (

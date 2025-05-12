@@ -5,7 +5,8 @@ import { fileURLToPath } from 'url'
 import mysql from 'mysql2/promise'
 
 const app = express()
-const PORT = process.env.PORT || 9000 
+const PORT = process.env.PORT 
+
 
     //to get the files from the in same project file
     const __filename = fileURLToPath(import.meta.url);
