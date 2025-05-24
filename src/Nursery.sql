@@ -16,7 +16,6 @@ CREATE TABLE users (
 INSERT INTO users (full_name) VALUES ('Rose');
 INSERT INTO users (full_name) VALUES ('Tulip');
 
-SELECT * FROM users;
 
 -- Table: children
 CREATE TABLE children (
